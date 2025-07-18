@@ -65,6 +65,7 @@
     & legend {
         font-weight: var(--bold);
         padding-inline: 0.75rem;
+        margin-inline: auto;
     }
 
     & li {
