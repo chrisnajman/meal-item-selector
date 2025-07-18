@@ -42,7 +42,6 @@
 
     & fieldset {
         position: relative;
-        /* width: clamp(21.375rem, 19.9182rem + 6.7757vw, 25rem); */
         width: clamp(18.5rem, 17.7716rem + 3.3879vw, 20.3125rem);
         border: 0.125rem solid var(--accent-neutral);
         border-end-start-radius: var(--border-radius);
@@ -151,7 +150,6 @@
         font-weight: var(--bold);
         text-align: center;
         border: 0.125rem solid var(--accent-neutral);
-        border-radius: 0.5rem;
         padding: 0.5rem 0.75rem;
         width: fit-content;
         margin-inline-start: auto;
