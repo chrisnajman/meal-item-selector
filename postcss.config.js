@@ -3,7 +3,9 @@ module.exports = {
     require("postcss-import"),
     require("postcss-nesting"),
     require("postcss-url")({
-      url: "rebase", // adjusts URLs to be relative to output CSS location
+      url: "copy",
+      assetsPath: "docs/img",
+      useHash: true,
     }),
     require("cssnano")({ preset: "default" }),
   ],
