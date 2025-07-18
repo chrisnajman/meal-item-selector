@@ -1,0 +1,22 @@
+:root {
+    overflow-y: scroll;
+    color-scheme: light dark;
+    --animation-timing: 250ms;
+    --bold: 500;
+    --border-radius: 1.25rem;
+
+    --body-bg: #fff;
+    --body-fg: #000;
+    --accent-neutral: #ccc;
+    --accent-colour: blue;
+    --warning: #d50101;
+}
+
+/* dark mode default */
+.darkmode {
+    --body-bg: #000;
+    --body-fg: #fff;
+    --accent-neutral: #666;
+    --accent-colour: aqua;
+    --warning: #ffc0cb;
+}
