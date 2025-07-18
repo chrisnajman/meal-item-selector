@@ -43,7 +43,7 @@ body {
     & .icon {
         width: 3.125rem;
         height: 3.125rem;
-        background: url("/img/food.png") top left no-repeat;
+        background: url("../img/food.png") top left no-repeat;
         background-size: cover;
     }
 
